@@ -1,0 +1,5 @@
+When a client sends data to your web server, such as submitting a form or making an API request, it typically sends that data in a structured format. JSON (JavaScript Object Notation) is a common format for transmitting data between a client and a server.
+When your server receives an HTTP request containing JSON data (for example, in the body of a POST request), it needs to parse that JSON data to extract the individual fields and values.
+Binding refers to the process of automatically populating the fields of a Go struct with data from the JSON request body.
+
+Parsing, in simple terms means process of analyzing a piece of text or data according to a defined set of rules or grammar in order to extract meaningful information.
